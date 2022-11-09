@@ -14,4 +14,18 @@ void main(){
   print(b);
   print(name);
   print(isValid);
+
+  print("\n");
+
+  //Using Var KeyWord
+
+  var aa=1;
+  var bb=3.83;
+  var cc="Hello";
+  var isValid1=false;
+
+  print(aa);
+  print(bb);
+  print(cc);
+  print(isValid1);
 }
