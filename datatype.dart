@@ -6,7 +6,12 @@ void main(){
 
   String name= "Avinash";
 
+  bool isValid=true;
+
+
+
   print(a);
   print(b);
   print(name);
+  print(isValid);
 }
