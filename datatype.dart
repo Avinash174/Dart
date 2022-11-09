@@ -21,8 +21,8 @@ void main(){
 
   var aa=1;
   var bb=3.83;
-  var cc="Hello";
-  var isValid1=false;
+  var cc; //intial value assign as Null
+  var isValid1; //intial value assign as Null
 
   print(aa);
   print(bb);
