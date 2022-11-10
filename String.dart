@@ -4,5 +4,6 @@ void main(){
 
 
   print("$s1 Avinash");
+  print(s1.length);
 
 }
