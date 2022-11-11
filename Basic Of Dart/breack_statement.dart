@@ -1,5 +1,6 @@
 void main(){
 
+<<<<<<< HEAD
   //Label
   //Break Keyword
 
@@ -17,3 +18,6 @@ void main(){
    }
   }
 
+=======
+}
+>>>>>>> github/master
