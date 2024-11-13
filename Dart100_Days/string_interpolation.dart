@@ -17,4 +17,20 @@ void main(){
 
   String myName="Avinash's Program";
   print(myName);
+
+  // String Concatenation '+'
+
+  // If We Want to add  string that time we use string concatination
+
+  String nameMy='Avinash';
+  print(nameMy + ' Magar');
+
+  // String Interpolation 
+
+  // For Variable we use $ sign
+
+  // For expression we use $ { }
+
+  print('My Name is $nameMy');
+  
 }
