@@ -6,7 +6,7 @@ void main(){
   print("Data Type Is ${a.runtimeType}");
 
 
-  // Same data type can change in var 
+  // data type can change in var 
   var b=true;
   print(b);
   b=false;
