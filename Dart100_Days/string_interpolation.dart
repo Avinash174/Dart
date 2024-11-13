@@ -32,5 +32,6 @@ void main(){
   // For expression we use $ { }
 
   print('My Name is $nameMy');
-  
+  print("My Name Length is : ${nameMy.length}");
+
 }
