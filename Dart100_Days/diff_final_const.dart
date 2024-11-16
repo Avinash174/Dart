@@ -14,3 +14,10 @@ const
 
 */
 
+void main() {
+  final int a = 10;
+  print(a);
+
+  const b = "Avinash";
+  print(b);
+}
