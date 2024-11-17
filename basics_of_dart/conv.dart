@@ -3,6 +3,5 @@ void main() {
   int nu = int.parse(a);
   print(a);
   print(a.runtimeType);
-
   print(nu.runtimeType);
 }
