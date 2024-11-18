@@ -15,6 +15,7 @@ void main() {
   print("Addition : ${add(10, 20)}\n");
   print("Subtraction : ${sub(10, 5)}\n");
   print("Mul :${mul(10, 10)}\n");
+  print("Remainder: ${rem(13, 2)}");
 }
 
 // function
@@ -34,5 +35,11 @@ int sub(int a, int b) {
 int mul(int a, int b) {
   int c;
   c = a * b;
+  return c;
+}
+
+int rem(int a, int b) {
+  int c;
+  c = a % b;
   return c;
 }
