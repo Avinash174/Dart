@@ -12,9 +12,9 @@ syntax :
 */
 
 void main() {
-  print("Addition : ${add(10, 20)}");
-  print("Subtraction : ${sub(10, 5)}");
-  print("Mul :${mul(10, 10)}");
+  print("Addition : ${add(10, 20)}\n");
+  print("Subtraction : ${sub(10, 5)}\n");
+  print("Mul :${mul(10, 10)}\n");
 }
 
 // function
