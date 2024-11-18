@@ -3,11 +3,11 @@
 Function is set of code.
 
 syntax : 
-return type function_name(parameter_type){
-
-statement;
-return value;
-}
+  return type function_name(parameter_type)
+  {
+    statement;
+    return value;
+  }
 
 */
 
