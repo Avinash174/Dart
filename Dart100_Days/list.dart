@@ -15,6 +15,7 @@ Zero-Base Indexing Like Array
 // List Declaration
 
 void main() {
+  // metion <data type> in bracket
   List<int> lst = [10, 20, 30, 40];
   List<String> lst1 = ['avi', 'nn'];
   print(lst);
