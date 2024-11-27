@@ -26,4 +26,15 @@ void main() {
   print(lstdouble);
   print(lstdouble.runtimeType);
   print(lst1[1]);
+
+  // update list
+
+  List<int> number = [1, 2, 3, 4, 5, 6];
+  number.add(20);
+  print(number.length);
+  print(number.reversed);
+  number[0] = 11;
+  print(number);
+  number[2] = 10;
+  print(number);
 }
