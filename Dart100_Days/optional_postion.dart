@@ -1,5 +1,3 @@
-import 'parameter.dart';
-
 void main() {
   stud('Avinash', 11);
 }
