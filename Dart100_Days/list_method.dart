@@ -14,4 +14,18 @@ void main() {
   print(number.length);
   number.insert(0, 11);
   print(number);
+  print(number.first);
+  print(number.remove(2));
+  print(number.length);
+  print(number.indexed);
+  print(number.nonNulls);
+  number.sort();
+  print(number);
+  number.removeAt(1);
+  number.remove(11);
+  print(number.runtimeType);
+  print(number.isNotEmpty);
+  print(number.isEmpty);
+  number.clear();
+  print(number);
 }
