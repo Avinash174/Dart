@@ -14,11 +14,16 @@ Zero-Base Indexing Like Array
 
 // List Declaration
 
+import 'dart:developer';
+
 void main() {
   // metion <data type> in bracket
   List<int> lst = [10, 20, 30, 40];
   List<String> lst1 = ['avi', 'nn'];
+  List<double> lstdouble = [1.4, 13.5];
   print(lst);
   print(lst1.runtimeType);
+  print(lstdouble);
+  print(lstdouble.runtimeType);
   print(lst1[1]);
 }
