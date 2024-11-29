@@ -22,6 +22,15 @@ void main() {
 
   Set s1 = new Set();
   s1.add(10);
+  s1.add(20);
   print(s1);
   print(s1.runtimeType);
+
+  var s2 = {};
+  print(s2);
+  print(s2.runtimeType);
+
+  for (int i in s1) {
+    print('$i');
+  }
 }
