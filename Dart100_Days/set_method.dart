@@ -11,5 +11,6 @@ void main() {
   print(set1.isEmpty);
   set1.remove(21);
   print(set1.length);
-  print(set1.runtimeType);
+  print(set1.clear);
+  // print(set1.runtimeType);
 }
