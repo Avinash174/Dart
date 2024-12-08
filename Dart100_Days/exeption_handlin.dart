@@ -6,5 +6,5 @@ abnormorly
 */
 
 void main() {
-  print("hello");
+  try {} catch (e) {}
 }
