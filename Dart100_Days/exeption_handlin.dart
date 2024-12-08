@@ -6,6 +6,5 @@ abnormorly
 */
 
 void main() {
-
-  
+  print("hello");
 }
