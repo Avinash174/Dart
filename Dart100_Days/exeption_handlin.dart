@@ -1,16 +1,17 @@
 // exeception handling
 
 /* 
+
 The execution of program is terminated 
 abnormorly
 
-1. DefferLoadExecption 
+1. DefferLoadExcption 
 
 Thrown when a deferred library fails to load
 
-2. Format Exeception
+2. Format Exception
 
-The exeption is thrown when a string or 
+The exception is thrown when a string or 
 some other data does not have an expected 
 format and cannot be processed.
 
@@ -19,12 +20,32 @@ format and cannot be processed.
 The execution is thrown when a number 
 is divisible by zero
 
-4. IO Exeception
+4. IO Exception
 
 Base class for all Input-Output 
-related execption
+related exception
+
+5. ISolateSpawnException
+
+Thrown when an isolate is not create
+
+6. OSError
+
+An exception holding information about an 
+error from the oprating system.
+
+7.TimeOutException
+
+Thrown when a scheduled timeout 
+happens while waiting for an async 
+result.
 */
 
 void main() {
-  try {} catch (e) {}
+  try {
+    int x = 5 ~/ 0;
+    print(x);
+  } on IntegerDivisionByZeroException {
+    print("can not divisible");
+  }
 }
