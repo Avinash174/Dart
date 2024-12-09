@@ -10,4 +10,14 @@ that was thrown, and the second is the
 stack Trace object.
 */
 
-void main() {}
+import 'dart:developer';
+
+void main() {
+  try {
+    int x = 5 ~/ 0;
+    log('x = $x');
+  } catch (e, s) {
+    print(e);
+    print(s);
+  }
+}
