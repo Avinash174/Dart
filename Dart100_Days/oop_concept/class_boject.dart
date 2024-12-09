@@ -20,7 +20,7 @@ New keyword is optional
 
 void main() {
   Animal animal = Animal(); // obj declaration
-  // new keyword is option when we create an object
+  // new keyword is option when we create an object.
   animal.display();
 }
 
