@@ -19,11 +19,13 @@ New keyword is optional
 */
 
 void main() {
-  Animal animal = Animal();
+  Animal animal = Animal(); // obj declaration
+  // new keyword is option when we create an object
   animal.display();
 }
 
 class Animal {
+  // class declaration
   void display() {
     print("Welcome In Animal Class");
   }
