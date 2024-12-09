@@ -1,4 +1,4 @@
-// class object 
+// class object
 
 /*
  A class is blueprint for an objects.
@@ -16,5 +16,15 @@ var object_name=new ClassName();
 
 New keyword is optional
 
-*/ 
+*/
 
+void main() {
+  Animal animal = Animal();
+  animal.display();
+}
+
+class Animal {
+  void display() {
+    print("Welcome In Animal Class");
+  }
+}
