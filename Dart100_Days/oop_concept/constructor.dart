@@ -26,14 +26,26 @@ parameterised constructor
 This constructor is used to implement 
 multiple constructor for a class.
 
+not mandatory to pass argument in named 
+constructor.
+
 */
 
 void main() {
   var a = A(20, 30); // default constructor
+  var b = B.nameConst(10, 20);
 }
 
 class A {
   A(int a, int b) {
-    print('$a,$b');
+    print('Parameterised Constructor');
+    print('$a,$b\n');
+  }
+}
+
+class B {
+  B.nameConst(int a, int b) {
+    print('$a\n$b');
+    print("name constructor");
   }
 }
