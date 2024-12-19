@@ -1,19 +1,24 @@
+// hierarchical inheritance
+
 /* 
-
-Multi-level Inheritance
-
-A-B-C
-
-
+    B
+A -
+    C  
 */
 
 void main() {
-  // Multi level inheritance
+  //hierarchical inheritance
+
+  var a = A();
+  a.display_a();
+
+  var b = B();
+  b.display_a();
+  b.display_b();
 
   var c = C();
-  c.display_c();
-  c.display_b();
   c.display_a();
+  c.display_c();
 }
 
 class A {
@@ -26,15 +31,13 @@ class A {
 
 class B extends A {
   var b = 20;
-
   void display_b() {
     print("$b");
   }
 }
 
-class C extends B {
+class C extends A {
   var c = 30;
-
   void display_c() {
     print("$c");
   }
