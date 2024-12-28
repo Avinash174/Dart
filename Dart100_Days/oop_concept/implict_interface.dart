@@ -1,0 +1,14 @@
+/* 
+
+Every class implicitly defines
+an interface containing all the 
+instance members of the class and 
+of any interface it implementes.
+
+cant use super keyword 
+
+superclass all methods implemented 
+in the subclass
+
+
+*/
